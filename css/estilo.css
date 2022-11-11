@@ -1,0 +1,56 @@
+@charset "pt-BR";
+
+body{
+    background: #f4f2ec url(../image/fundo.png) repeat-x;
+    font: 12px "Lucinda Grande","Lucinda Sans Unicode", "Arial", sans-serif;
+}
+
+#container{
+    width: 1080px;
+    margin: 0 auto; /*centralizar*/
+}
+
+a:visited  , a:link , a :active{
+    text-decoration: none;
+    color: #af670a;
+}
+a:hover{
+    text-decoration: none;
+    color: #227115;
+}
+
+/* ------- Inicio logo ---- */
+
+div#logo > h1 a {
+    width: 248px;
+    height: 21px;
+    text-indent: -9999px; /*sumir o texto*/
+    display: block;
+    background: url(../image/logo.png)no-repeat;
+}
+
+header {
+    padding: 15px 0;
+    height: 55px;
+}
+
+nav > ul {
+    margin: 20px;
+    list-style: none;
+    float: right;
+}
+
+nav > ul >li {
+    float: left;
+}
+
+nav > ul > li > a:link{
+    display: block;
+    margin-right: 25px;
+    padding-bottom:3px ;
+    text-transform: uppercase;
+}
+
+nav > ul > li > a:hover{
+    border-bottom: 1px solid #535858;
+}
