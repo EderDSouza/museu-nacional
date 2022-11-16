@@ -20,6 +20,9 @@ a:hover{
 }
 
 /* ------- Inicio logo ---- */
+div#logo > h1{
+    float: left;
+}
 
 div#logo > h1 a {
     width: 248px;
@@ -53,4 +56,17 @@ nav > ul > li > a:link{
 
 nav > ul > li > a:hover{
     border-bottom: 1px solid #535858;
+}
+
+/*------ Conteudo Principal ---- */
+
+div#conteudo{
+    width: 710px;
+    float: left;
+}
+
+aside {
+    width: 350px;
+    float: right;
+    background: #ebe7dd;
 }
