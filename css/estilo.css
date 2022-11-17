@@ -78,12 +78,46 @@ aside > section#visita {
     margin-top: 10px;
 }
 
+article#video{
+    width: 310px;
+    float: left;
+    margin-left: 25px;
+}
+
+article#mapa{
+    width: 310px;
+    float: left;
+    margin-left: 37px;
+}
+
+article#exposicao{
+    width: 310px;
+    float: left;
+    margin: 15px 0 0 25px;
+    
+}
+
+article#historia{
+    width: 310px;
+    float: left;
+    margin: 15px 0 0 37px;
+    
+}
+
+article > h3 {
+    color: #227115;
+    font-size: 1em;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
 section > h4{
     color: #86521a;
     text-transform: uppercase;
     padding-bottom: 3px;
     margin-bottom: 0;
 }
+
 
 section#galeria{
     padding:  0 27px 0 27px;
